@@ -1,0 +1,13 @@
+---
+- name: Ansible loops
+  hosts: ubuntuserver
+  tasks:
+    - name: Create a file
+      shell: echo "Begin file" > /home/{{ansible_user_id}}/Desktop/loops.txt
+
+    - name: Install packages
+      shell: echo "{{item}}" >> /home/{{ansible_user_id}}/Desktop/loops.txt
+      with_items:
+        - vim
+        - nano
+        - python

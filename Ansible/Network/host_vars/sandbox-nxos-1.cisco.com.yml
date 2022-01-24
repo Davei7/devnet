@@ -1,0 +1,10 @@
+---
+local_loopback:
+  - name: Loopback1
+    desc: Sample Ansible config
+    ip_address: 9.9.9.9
+    prefix: 32
+  - name: Loopback2
+    desc: Sample Ansible config
+    ip_address: 7.7.7.7
+    prefix: 32

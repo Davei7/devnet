@@ -1,0 +1,23 @@
+---
+- name: Create Loopbacks on device
+  hosts: sandbox
+  connection: local
+  tasks:
+    - name: Create loopback shell
+      with_items: "{{local_loopback}}"
+      nxos_interface:
+        interface: "{{item.name}}"
+        transport: cli
+        mode: layer3
+        description: "{{item.desc}}"
+        admin_state: up
+
+    - name: Set new loopback configs
+      with_items: "{{local_loopback}}"
+      nxos_l3_interface:
+        state: present
+        transport: cli
+        interface: "{{item.name}}"
+        version: v4
+        add: "{{item.ip.address}}"
+        mask: "{{item.prefix}}"

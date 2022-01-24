@@ -1,0 +1,9 @@
+---
+- name: Create loopback payload from template
+  hosts: 172.16.1.12
+  connection: local
+
+  tasks:
+    - name: Create template
+      with_items: "{{local_loopback}}"
+      template: src="files/ietf_interface.j2" dest="./output.json"

@@ -1,0 +1,8 @@
+---
+- name: Get stats and write to desktop
+  hosts: ubuntuserver
+  tasks:
+    - name: get system status and info
+      shell: uname -a > /home/dhedgehog/Desktop/output.txt
+    - name: print my username
+      shell: whoami >> /home/dhedgehog/Desktop/output.txt

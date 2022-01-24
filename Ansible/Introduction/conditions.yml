@@ -1,0 +1,15 @@
+---
+- hosts: ubuntuserver
+  become: true
+  tasks:
+    - name: Install nginx on Ubuntu
+      apt: name=nginx state=latest
+      # This will generate if installing in CentOS
+      ignore_errors: yes
+      # When it fails, store it in a variable
+      # For next task to run in case of failure
+      register : results
+    
+    - name: Install nginx on CentOS
+      yum: name=nginx state=latest
+      when: results is failed
