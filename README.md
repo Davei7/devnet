@@ -17,3 +17,7 @@ Everyone could use the repository as a guide to this certification. Each folder 
 Clone the repository by ```git clone https://github.com/Davei7/devnet.git```.
 
 * * *
+
+## Acknowledgements
+
+- [Gabriel](https://www.linkedin.com/in/gabrieldias-armamar/) were incredible in giving motivation for creating this repository.
