@@ -4,7 +4,17 @@
 
 ## Theory Overview
 
-The Application Policy Infrastructure Controllers (APIC) is what provides the rain in automation for all the Datacenter.
+Application Centric Infrastructure (ACI) is the Cisco solution to simplify the Datacenter. ACI gives us a single login to manage the network and it is aware of the applications in its network. ACI configures itself based on the desired state the user configures it to treat the applications.
+
+ACI is aware because the user doesn't need to know the code inside the applications. The user will simply configure the Datacenter based on policies around the network. This is what is called Application-Centric Policy.
+
+* * *
+
+Construction
+
+* * *
+
+The Application Policy Infrastructure Controllers (APIC) is what provides the automation for all the Datacenter.
 
 The APIC controllers are neither part of the data plane or the control plane. APIC controllers are part of the Management plane. When you log in to an ACI you will go log in into one of these APIC controllers because that is what provides the frontend GUI.
 
