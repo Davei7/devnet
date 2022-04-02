@@ -8,13 +8,19 @@
 
 Cisco Certification DevNet Associate requires the user to write scripts in order to retrieve information from different network devices. Each folder represents different devices, protocols or even a different language that contain those scripts.
 
-Everyone could use the repository as a guide to this certification. Each folder contains brief description.
+Everyone could use the repository as a guide to this certification. Each folder contains a brief description of its content.
 
 * * *
 
 ## Installation
 
 Clone the repository by ```git clone https://github.com/Davei7/devnet.git```.
+
+* * *
+
+## Usage
+
+![transferir](https://user-images.githubusercontent.com/49377281/161392185-fc44009c-f0d2-49d7-bb3f-8efb01fb36d3.jpg)
 
 * * *
 
