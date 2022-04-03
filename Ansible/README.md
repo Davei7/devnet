@@ -28,7 +28,7 @@ The list of commands to install Ansible (Ubuntu) is the following:
 3. ```$sudo apt-add-repository --yes ppa:ansible/ansible```
 4. ```$sudo apt install ansible -y```
 
-If you are using a different Operative System (OS), follow the documentation in this [URL](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
+If you are using a different Operative System (OS), follow the [documentation here](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
 
 To learn fundamentals regarding Ansible begin by checking the folder Introduction where you can learn the following:
 * Configure Remote Devices;
