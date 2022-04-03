@@ -2,7 +2,7 @@
 
 * * *
 
-## Theory Overview
+## ACI and APIC
 
 Application Centric Infrastructure (ACI) is the Cisco solution to simplify the Datacenter. ACI gives us a single login to manage the network, and it is aware of the applications in its network. ACI configures itself based on the desired state that the user configures to treat the applications.
 
