@@ -14,7 +14,7 @@ Everyone could use the repository as a guide to this certification. Each folder 
 
 ## Installation
 
-Clone the repository by ```git clone https://github.com/Davei7/devnet.git```.
+Clone the repository by using the command ```git clone https://github.com/Davei7/devnet.git```.
 
 * * *
 
