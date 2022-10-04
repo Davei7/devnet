@@ -20,7 +20,22 @@ Clone the repository by using the command ```git clone https://github.com/Davei7
 
 ## Table of Contents
 
-⋅⋅*[NETCONF](https://github.com/Davei7/devnet/tree/main/01-NETCONF)
+1. [NETCONF Protocol and Configuration](https://github.com/Davei7/devnet/tree/main/01-NETCONF)
+2. [RESTCONF Protocol and Configuration](https://github.com/Davei7/devnet/tree/main/02-RESTCONF)
+3. [NX-API (Nexus) Overview](https://github.com/Davei7/devnet/tree/main/03-NX-API)
+4. [Cisco Meraki Networks Overview and Management](https://github.com/Davei7/devnet/tree/main/04-Meraki)
+5. [Application Policy Infrastructure Controllers (APIC) and Datacenter API Overview](https://github.com/Davei7/devnet/tree/main/05-APIC-DC)
+6. [DNA-Center Connection and Management](https://github.com/Davei7/devnet/tree/main/06-DNA-C)
+7. [Cisco Unified Communications Manager (CUCM) Overview and Management](https://github.com/Davei7/devnet/tree/main/07-CUCM-UDS)
+8. [Automating Webex](https://github.com/Davei7/devnet/tree/main/08-Webex)
+9. [Automate Cisco SD-WAN](https://github.com/Davei7/devnet/tree/main/09-SD-WAN)
+10. [Create Access Policies in Firepower Management Center (FMC)](https://github.com/Davei7/devnet/tree/main/10-FirePower)
+11. [Automate Network Services Orchestrator (NSO)](https://github.com/Davei7/devnet/tree/main/11-NSO)
+12. [Overview and Automation with Cisco Unified Computer System (UCS) Platform](https://github.com/Davei7/devnet/tree/main/12-UCS)
+13. [Automate everything with PowerShell Core v7](https://github.com/Davei7/devnet/tree/main/13-Powershell)
+14. [Basics of Docker](https://github.com/Davei7/devnet/tree/main/14-Docker)
+15. [Install and Configure Ansible and Configure Remote Devices with Ansible](https://github.com/Davei7/devnet/tree/main/15-Ansible)
+16. [Unit Tests and Test-Driven Development Example](https://github.com/Davei7/devnet/tree/main/16-TestsExamples)
 
 * * *
 
