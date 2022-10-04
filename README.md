@@ -20,9 +20,7 @@ Clone the repository by using the command ```git clone https://github.com/Davei7
 
 ## Table of Contents
 
-<div>
-<a href="https://github.com/Davei7/devnet/tree/main/01-NETCONF" target="_blank">NETCONF</a>
-</div>
+[NETCONF]((https://github.com/Davei7/devnet/tree/main/01-NETCONF))
 
 * * *
 
